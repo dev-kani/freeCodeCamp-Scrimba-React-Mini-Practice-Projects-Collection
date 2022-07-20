@@ -7,11 +7,11 @@ const InfoSection = () => {
       <p>lauren.website</p>
       <div className="card-btn">
         <a href="/">
-          <i class="fas fa-envelope"></i>
+          <i className="fas fa-envelope"></i>
           Email
         </a>
         <a href="/">
-          <i class="fab fa-linkedin"></i>
+          <i className="fab fa-linkedin"></i>
           LinkedIn
         </a>
       </div>

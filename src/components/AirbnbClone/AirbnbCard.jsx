@@ -17,7 +17,7 @@ const AirbnbCard = ({ img, rating, reviewCount, location, title, price, openSpot
           <img src={process.env.PUBLIC_URL + img} alt="" />
         </div>
         <div className="airbnb-card-body">
-          <div><i class="fas fa-star"></i>{rating} ({reviewCount})•{location}</div>
+          <div><i className="fas fa-star"></i>{rating} ({reviewCount})•{location}</div>
           <p>{title}</p>
           <p><span>From ${price} </span> / person</p>
         </div>
